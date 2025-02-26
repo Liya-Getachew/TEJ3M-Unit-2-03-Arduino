@@ -11,12 +11,14 @@
  const int PIN_5 = 5;
  int blinkTime = 1000; // set variable to 1000
  
- void setup() {
+ void setup() 
+{
    // initialize digital pin LED_BUILTIN as an output.
    pinMode(PIN_5, OUTPUT); 
  }
  
- void loop() {
+ void loop() 
+{
    digitalWrite(PIN_5, HIGH);   // turn the LED on (HIGH is the voltage level)
    delay(blinkTime);   // wait for length of variable blinkTime
    digitalWrite(PIN_5, LOW);   // turn the LED off by making the voltage LOW
