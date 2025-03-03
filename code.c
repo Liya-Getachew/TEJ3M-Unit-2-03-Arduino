@@ -1,11 +1,11 @@
 /*
+ * created on Feb 2025
+ * by Liya G.
+ 
  * Blink with variable 
  * 
  * Turns an LED on for one second, then off for one second, repeatedly.
  * But the interval increases each time by 1 more second.
- * 
- * created on Feb 2025
- * by Liya G.
  */
 
  const int PIN_5 = 5;
